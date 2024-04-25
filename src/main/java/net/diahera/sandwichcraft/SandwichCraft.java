@@ -1,8 +1,7 @@
-package net.diahera.tutorialmod;
+package net.diahera.sandwichcraft;
 
 import com.mojang.logging.LogUtils;
-import net.diahera.tutorialmod.item.Moditems;
-import net.minecraft.world.item.CreativeModeTab;
+import net.diahera.sandwichcraft.item.Moditems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -17,15 +16,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(TutorialMod.MOD_ID)
-public class TutorialMod
+@Mod(SandwichCraft.MOD_ID)
+public class SandwichCraft
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "tutorial_mod";
+    public static final String MOD_ID = "sandwichcraft";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public TutorialMod()
+    public SandwichCraft()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
