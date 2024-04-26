@@ -1,7 +1,9 @@
 package net.diahera.sandwichcraft;
 
 import com.mojang.logging.LogUtils;
-import net.diahera.sandwichcraft.item.Moditems;
+import net.diahera.sandwichcraft.item.ModItems;
+import net.diahera.sandwichcraft.item.ModCreativeModeTabs;
+import net.diahera.sandwichcraft.item.ModFoods;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,8 +29,8 @@ public class SandwichCraft
     public SandwichCraft()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
-        Moditems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -45,7 +47,7 @@ public class SandwichCraft
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(Moditems.Chicken_Sandwich);
+            event.accept(ModItems.Chicken_Sandwich);
         }
     }
 
