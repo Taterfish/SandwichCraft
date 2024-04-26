@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 70,
+  "experience": 0.10,
+  "ingredient": {
+    "item": "minecraft:bread"
+  },
+  "result": "sandwichcraft:toast"
+}

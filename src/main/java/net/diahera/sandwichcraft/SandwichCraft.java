@@ -1,9 +1,9 @@
 package net.diahera.sandwichcraft;
 
 import com.mojang.logging.LogUtils;
+import net.diahera.sandwichcraft.block.ModBlocks;
 import net.diahera.sandwichcraft.item.ModItems;
 import net.diahera.sandwichcraft.item.ModCreativeModeTabs;
-import net.diahera.sandwichcraft.item.ModFoods;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,8 +29,10 @@ public class SandwichCraft
     public SandwichCraft()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

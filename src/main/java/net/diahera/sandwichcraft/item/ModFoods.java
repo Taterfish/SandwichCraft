@@ -9,6 +9,8 @@ import net.minecraft.world.effect.MobEffectInstance;
                 .saturationMod(0.4f).build();
         public static final FoodProperties CHICKEN_SANDWICH = new FoodProperties.Builder().nutrition(5)
                 .saturationMod(0.5f).build();
+        public static final FoodProperties TOAST = new FoodProperties.Builder().nutrition(2)
+                .saturationMod(0.2f).build();
     }
 
 

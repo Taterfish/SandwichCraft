@@ -1,6 +1,7 @@
 package net.diahera.sandwichcraft.item;
 
 import net.diahera.sandwichcraft.SandwichCraft;
+import net.diahera.sandwichcraft.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,9 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.FRIED_EGG.get());
                         pOutput.accept(ModItems.CHICKEN_SANDWICH.get());
+                        pOutput.accept(ModItems.TOAST.get());
+
+                        pOutput.accept(ModBlocks.CRUST_BLOCK.get());
 
                     })
                     .build());

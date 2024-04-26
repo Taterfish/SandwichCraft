@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sandwichcraft:block/crust_block"
+    }
+  }
+}
