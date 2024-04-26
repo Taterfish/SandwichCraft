@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sandwichcraft:crust_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random sequence": "sandwichcraft:block/crust_block"
+}
