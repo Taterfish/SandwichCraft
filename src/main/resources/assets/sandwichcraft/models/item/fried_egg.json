@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "sandwichcraft:item/Chicken_Sandwich"
+    "layer0": "sandwichcraft:item/fried_egg"
   }
 }

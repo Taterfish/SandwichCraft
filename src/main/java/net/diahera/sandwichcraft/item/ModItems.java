@@ -11,11 +11,10 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, SandwichCraft.MOD_ID);
 
-    public static final RegistryObject<Item> Chicken_Sandwich = ITEMS.register("Chicken_Sandwich",
-            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CHICKEN_SANDWICH = ITEMS.register("chicken_sandwich",
+            () -> new Item(new Item.Properties().food(ModFoods.CHICKEN_SANDWICH)));
 
-
-    public static final RegistryObject<Item> FRIED_EGG =ITEMS.register("fried_egg",
+    public static final RegistryObject<Item> FRIED_EGG =ITEMS.register("fried_egg.json",
             () -> new Item(new Item.Properties().food(ModFoods.FRIED_EGG)));
 
 

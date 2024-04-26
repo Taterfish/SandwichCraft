@@ -15,10 +15,11 @@ public class ModCreativeModeTabs {
 
 
     public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
-            () -> CreativeModeTab.builder().icon(() ->new ItemStack(ModItems.FRIED_EGG.get()))
+            () -> CreativeModeTab.builder().icon(() ->new ItemStack(ModItems.CHICKEN_SANDWICH.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.FRIED_EGG.get());
+                        pOutput.accept(ModItems.CHICKEN_SANDWICH.get());
 
                     })
                     .build());
