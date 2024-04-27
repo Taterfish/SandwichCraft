@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.TOAST.get());
 
                         pOutput.accept(ModBlocks.CRUST_BLOCK.get());
+                        pOutput.accept(ModBlocks.SANDWICH_STATION.get());
 
                     })
                     .build());
