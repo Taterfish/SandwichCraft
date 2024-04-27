@@ -22,9 +22,18 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.FRIED_EGG.get());
                         pOutput.accept(ModItems.CHICKEN_SANDWICH.get());
                         pOutput.accept(ModItems.TOAST.get());
+                        pOutput.accept(ModItems.CRUST.get());
 
                         pOutput.accept(ModBlocks.CRUST_BLOCK.get());
                         pOutput.accept(ModBlocks.SANDWICH_STATION.get());
+
+                        pOutput.accept(ModItems.CRUST_SWORD.get());
+                        pOutput.accept(ModItems.CRUST_PICKAXE.get());
+                        pOutput.accept(ModItems.CRUST_AXE.get());
+                        pOutput.accept(ModItems.CRUST_HOE.get());
+                        pOutput.accept(ModItems.CRUST_SHOVEL.get());
+
+
 
                     })
                     .build());
