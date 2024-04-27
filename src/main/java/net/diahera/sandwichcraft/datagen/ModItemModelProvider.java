@@ -23,6 +23,7 @@ public class ModItemModelProvider extends ItemModelProvider {
        simpleItem(ModItems.FRIED_EGG);
        simpleItem(ModItems.CHICKEN_SANDWICH);
        simpleItem(ModItems.TOAST);
+       simpleItem(ModItems.CRUST);
 
        handheldItem(ModItems.CRUST_SWORD);
        handheldItem(ModItems.CRUST_PICKAXE);

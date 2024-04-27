@@ -1,4 +1,10 @@
-// 1.20.1	2024-04-26T22:37:41.1943302	Item Models: sandwichcraft
+// 1.20.1	2024-04-27T17:52:37.9641231	Item Models: sandwichcraft
 9c32ac60caf569532e92c030921292cf2b7febcc assets/sandwichcraft/models/item/chicken_sandwich.json
+1c2d0735761be7b23279d289d39f7ca931054f18 assets/sandwichcraft/models/item/crust.json
+c4e6a680b9bdc58fe38665ffe3d192b831a0dfac assets/sandwichcraft/models/item/crust_axe.json
+a40e2242c2cefe026f2c4d1a08527cf0fa02963c assets/sandwichcraft/models/item/crust_hoe.json
+3e8cfa7e2622d6337827a4d54d508c102b4454d5 assets/sandwichcraft/models/item/crust_pickaxe.json
+88a9e0d29ba368310b76904970719355d4291562 assets/sandwichcraft/models/item/crust_shovel.json
+bb1fd8bf2a303db563d4369bc33387c0bcf09990 assets/sandwichcraft/models/item/crust_sword.json
 5c3df8bc66565a75e7a79f1047f3a47f71a66a73 assets/sandwichcraft/models/item/fried_egg.json
 4f2d7bf828dbb892befc7169442ffcc75403c541 assets/sandwichcraft/models/item/toast.json
