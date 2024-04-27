@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "fried_egg",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": "sandwichcraft:fried_egg"
+}
