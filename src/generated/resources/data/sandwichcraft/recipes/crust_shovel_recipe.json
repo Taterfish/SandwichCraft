@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "sandwichcraft:crust"
+    },
+    "X": {
+      "item": "minecraft:gold_shovel"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "sandwichcraft:crust_shovel"
+  },
+  "show_notification": true
+}

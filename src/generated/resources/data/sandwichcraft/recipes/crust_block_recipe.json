@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "sandwichcraft:toast"
+    },
+    {
+      "item": "sandwichcraft:toast"
+    },
+    {
+      "item": "sandwichcraft:toast"
+    },
+    {
+      "item": "sandwichcraft:toast"
+    },
+    {
+      "item": "sandwichcraft:toast"
+    },
+    {
+      "item": "sandwichcraft:toast"
+    },
+    {
+      "item": "sandwichcraft:toast"
+    },
+    {
+      "item": "sandwichcraft:toast"
+    },
+    {
+      "item": "sandwichcraft:toast"
+    }
+  ],
+  "result": {
+    "item": "sandwichcraft:crust_block"
+  }
+}

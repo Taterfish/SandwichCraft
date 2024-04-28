@@ -31,7 +31,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> CRUST_SWORD = ITEMS.register("crust_sword",
             () -> new SwordItem(ModToolTiers.CRUST, 4, 2, new Item.Properties()));
-    public static final RegistryObject<Item> CRUST_PICKAXE = ITEMS.register("crust_pickaxe",
+    public static final RegistryObject<Item> CRUST_PICKAXE = ITEMS.register("crust_pickaxe_recipe.json",
             () -> new PickaxeItem(ModToolTiers.CRUST, 1, 1, new Item.Properties()));
     public static final RegistryObject<Item> CRUST_AXE = ITEMS.register("crust_axe",
             () -> new AxeItem(ModToolTiers.CRUST, 7, 1, new Item.Properties()));
