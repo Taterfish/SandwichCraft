@@ -24,11 +24,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
 
-
-
-
-
-
     public static final RegistryObject<Item> CRUST_SWORD = ITEMS.register("crust_sword",
             () -> new SwordItem(ModToolTiers.CRUST, 4, 2, new Item.Properties()));
     public static final RegistryObject<Item> CRUST_PICKAXE = ITEMS.register("crust_pickaxe",
@@ -40,6 +35,15 @@ public class ModItems {
     public static final RegistryObject<Item> CRUST_HOE = ITEMS.register("crust_hoe",
             () -> new HoeItem(ModToolTiers.CRUST, 0, 0, new Item.Properties()));
 
+
+    public static final RegistryObject<Item> CRUST_HELMET = ITEMS.register("crust_helmet",
+            () -> new ArmorItem(ModArmorMaterials.CRUST, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> CRUST_CHESTPLATE = ITEMS.register("crust_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.CRUST, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> CRUST_LEGGINGS = ITEMS.register("crust_leggings",
+            () -> new ArmorItem(ModArmorMaterials.CRUST, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> CRUST_BOOTS = ITEMS.register("crust_boots",
+            () -> new ArmorItem(ModArmorMaterials.CRUST, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
       ITEMS.register(eventBus);

@@ -33,7 +33,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CRUST_HOE.get());
                         pOutput.accept(ModItems.CRUST_SHOVEL.get());
 
-
+                        pOutput.accept(ModItems.CRUST_HELMET.get());
+                        pOutput.accept(ModItems.CRUST_CHESTPLATE.get());
+                        pOutput.accept(ModItems.CRUST_LEGGINGS.get());
+                        pOutput.accept(ModItems.CRUST_BOOTS.get());
 
                     })
                     .build());

@@ -2,7 +2,7 @@
   "item.sandwichcraft.chicken_sandwich": "Chicken Sandwich",
   "item.sandwichcraft.fried_egg": "Fried Egg",
   "item.sandwichcraft.toast": "Toast",
-  "item.sandwichcraft.toast": "Crust",
+  "item.sandwichcraft.crust": "Crust",
 
 
 
@@ -16,5 +16,11 @@
   "item.sandwichcraft.crust_pickaxe": "Crust Pickaxe",
   "item.sandwichcraft.crust_axe": "Crust Axe",
   "item.sandwichcraft.crust_shovel": "Crust Shovel",
-  "item.sandwichcraft.crust_hoe": "Crust Hoe"
+  "item.sandwichcraft.crust_hoe": "Crust Hoe",
+
+
+  "item.sandwichcraft.crust_helmet": "Crusty Helmet",
+  "item.sandwichcraft.crust_chestplate": "Crusty Chestplate",
+  "item.sandwichcraft.crust_leggings": "Crusty Leggings",
+  "item.sandwichcraft.crust_boots": "Crusty Boots"
 }
