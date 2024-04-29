@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier CRUST = TierSortingRegistry.registerTier(
-            new ForgeTier(5,1000,6f,1f,40,
+            new ForgeTier(5,500,2f,1f,30,
                     ModTags.Blocks.NEEDS_CRUST_TOOL,() -> Ingredient.of(ModItems.TOAST.get())),
             new ResourceLocation(SandwichCraft.MOD_ID, "crust"), List.of(Tiers.IRON),List.of());
 }

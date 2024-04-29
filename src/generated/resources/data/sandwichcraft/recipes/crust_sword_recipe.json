@@ -1,11 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "key": {
     "#": {
       "item": "sandwichcraft:crust"
     },
     "X": {
-      "item": "minecraft:gold_sword"
+      "item": "minecraft:golden_sword"
     }
   },
   "pattern": [
