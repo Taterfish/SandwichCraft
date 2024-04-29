@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "sandwichcraft:crust"
+    },
+    "X": {
+      "item": "minecraft:golden_pickaxe"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "sandwichcraft:crust_pickaxe"
+  },
+  "show_notification": true
+}

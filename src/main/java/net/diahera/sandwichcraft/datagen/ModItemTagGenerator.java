@@ -23,5 +23,6 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.CRUST_CHESTPLATE.get(),
                         ModItems.CRUST_LEGGINGS.get(),
                         ModItems.CRUST_BOOTS.get());
+
     }
 }

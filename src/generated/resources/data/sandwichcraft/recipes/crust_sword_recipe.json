@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "sandwichcraft:crust"
+    },
+    "X": {
+      "item": "minecraft:golden_sword"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "sandwichcraft:crust_sword"
+  },
+  "show_notification": true
+}
